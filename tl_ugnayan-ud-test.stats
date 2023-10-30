@@ -2,7 +2,7 @@
   "dataset_id": "tl_ugnayan-ud-test",
   "num_documents": 4,
   "num_annotated_documents": 4,
-  "num_annotations": 171,
+  "num_annotations": 152,
   "num_annotators": 4,
   "annotator_ids": [
     "elyanah",
@@ -15,7 +15,7 @@
   "num_tokens": 1097,
   "label_distribution": {
     "PER": 2,
-    "LOC": 50
+    "LOC": 31
   },
   "pairwise_f1": {
     "ref:elyanah, pred:jmri20": {
@@ -29,24 +29,24 @@
     "ref:elyanah, pred:myron": {
       "num_common_annotated_docs": 3,
       "LOC": {
-        "precision": 0.28,
-        "recall": 0.45161290322580644,
-        "f1": 0.345679012345679
+        "precision": 0.8709677419354839,
+        "recall": 0.8709677419354839,
+        "f1": 0.8709677419354839
       }
     },
     "ref:jmri20, pred:myron": {
       "num_common_annotated_docs": 3,
       "LOC": {
-        "precision": 0.3,
-        "recall": 0.4838709677419355,
-        "f1": 0.37037037037037035
+        "precision": 0.9032258064516129,
+        "recall": 0.9032258064516129,
+        "f1": 0.9032258064516129
       }
     },
     "average": {
       "LOC": {
-        "precision": 0.5159139784946237,
-        "recall": 0.6344086021505376,
-        "f1": 0.5612637727333069
+        "precision": 0.913978494623656,
+        "recall": 0.913978494623656,
+        "f1": 0.913978494623656
       }
     }
   }
