@@ -17,7 +17,7 @@
 14	tanong	O	-	-
 15	ko	O	-	-
 16	kay	O	-	-
-17	Tatay	B-PER	-	jmri20
+17	Tatay	O	-	-
 18	.	O	-	-
 
 # sent_id = batch-0000-0002
@@ -36,7 +36,7 @@
 2	-ng	O	-	-
 3	nag-isip	O	-	-
 4	si	O	-	-
-5	Tatay	B-PER	-	jmri20
+5	Tatay	O	-	-
 6	bago	O	-	-
 7	niya	O	-	-
 8	sinabi	O	-	-
@@ -57,7 +57,7 @@
 3	sa	O	-	-
 4	jeep	O	-	-
 5	ni	O	-	-
-6	Tatay	B-PER	-	jmri20
+6	Tatay	O	-	-
 7	at	O	-	-
 8	umupo	O	-	-
 9	sa	O	-	-
@@ -135,7 +135,7 @@
 8	sa	O	-	-
 9	jeepney	O	-	-
 10	ni	O	-	-
-11	Tatay	B-PER	-	jmri20
+11	Tatay	O	-	-
 12	.	O	-	-
 
 # sent_id = batch-0000-0010
@@ -292,7 +292,7 @@
 2	siya	O	-	-
 3	sa	O	-	-
 4	mga	O	-	-
-5	kasakay	O	-	-
+5	kasakay	B-PER	-	ljmiranda
 6	niya	O	-	-
 7	sabay	O	-	-
 8	-	O	-	-
@@ -351,7 +351,7 @@
 8	sabi	O	-	-
 9	ng	O	-	-
 10	mga	O	-	-
-11	kasakay	O	-	-
+11	kasakay	B-PER	-	ljmiranda
 12	at	O	-	-
 13	pumalakpak	O	-	-
 14	kami	O	-	-
@@ -446,7 +446,7 @@
 4	mga	O	-	-
 5	pasahero	O	-	-
 6	ni	O	-	-
-7	Tatay	B-PER	-	jmri20
+7	Tatay	O	-	-
 8	.	O	-	-
 
 # newdoc id = batch-0001
@@ -615,7 +615,7 @@
 1	Tumingin	O	-	-
 2	ako	O	-	-
 3	kay	O	-	-
-4	Tatay	B-PER	-	jmri20
+4	Tatay	O	-	-
 5	na	O	-	-
 6	nakangiti	O	-	-
 7	rin	O	-	-
@@ -626,7 +626,7 @@
 1	Nagpasalamat	O	-	-
 2	din	O	-	-
 3	si	O	-	-
-4	Tatay	B-PER	-	jmri20
+4	Tatay	O	-	-
 5	sa	O	-	-
 6	mama	O	-	-
 7	.	O	-	-
@@ -677,7 +677,7 @@
 7	ng	O	-	-
 8	jeep	O	-	-
 9	ni	O	-	-
-10	Tatay	B-PER	-	jmri20
+10	Tatay	O	-	-
 11	dahil	O	-	-
 12	sa	O	-	-
 13	payaso	O	-	-
@@ -696,13 +696,13 @@
 6	-	O	-	-
 7	tubig	O	-	-
 8	sa	O	-	-
-9	Pilipinas	B-LOC	-	jmri20
+9	Pilipinas	B-LOC	-	myron
 10	!	O	-	-
 
 # sent_id = batch-0001-0020
 # text = Ang Pilipinas ay binubuo ng marami -ng isla.
 1	Ang	O	-	-
-2	Pilipinas	B-LOC	-	jmri20
+2	Pilipinas	B-LOC	-	myron
 3	ay	O	-	-
 4	binubuo	O	-	-
 5	ng	O	-	-
@@ -784,7 +784,7 @@
 9	-	O	-	-
 10	tubig	O	-	-
 11	sa	O	-	-
-12	Pilipinas	B-LOC	-	jmri20
+12	Pilipinas	B-LOC	-	myron
 13	!	O	-	-
 
 # sent_id = batch-0001-0026
@@ -806,13 +806,13 @@
 # text = Ganito ang Lawa ng Taal sa probinsya ng Batangas.
 1	Ganito	O	-	-
 2	ang	O	-	-
-3	Lawa	B-LOC	-	jmri20
-4	ng	I-LOC	-	jmri20
-5	Taal	I-LOC	-	jmri20
+3	Lawa	O	-	-
+4	ng	O	-	-
+5	Taal	B-LOC	-	myron
 6	sa	O	-	-
 7	probinsya	O	-	-
 8	ng	O	-	-
-9	Batangas	B-LOC	-	jmri20
+9	Batangas	B-LOC	-	myron
 10	.	O	-	-
 
 # sent_id = batch-0001-0028
@@ -824,8 +824,8 @@
 5	nito	O	-	-
 6	ay	O	-	-
 7	ang	O	-	-
-8	Bulkang	B-LOC	-	jmri20
-9	Taal	I-LOC	-	jmri20
+8	Bulkang	B-LOC	-	myron
+9	Taal	B-LOC	-	myron
 10	.	O	-	-
 
 # sent_id = batch-0001-0029
@@ -867,8 +867,8 @@
 10	sa	O	-	-
 11	loob	O	-	-
 12	ng	O	-	-
-13	Bulkang	B-LOC	-	jmri20
-14	Taal	I-LOC	-	jmri20
+13	Bulkang	B-LOC	-	myron
+14	Taal	B-LOC	-	myron
 15	?	O	-	-
 
 # newdoc id = batch-0002
@@ -886,13 +886,13 @@
 4	-ng	O	-	-
 5	pumupunta	O	-	-
 6	sa	O	-	-
-7	Lawa	B-LOC	-	jmri20
-8	ng	I-LOC	-	jmri20
-9	Taal	I-LOC	-	jmri20
+7	Lawa	O	-	-
+8	ng	O	-	-
+9	Taal	B-LOC	-	myron
 10	at	O	-	-
 11	sa	O	-	-
-12	Bulkang	B-LOC	-	jmri20
-13	Taal	I-LOC	-	jmri20
+12	Bulkang	B-LOC	-	myron
+13	Taal	B-LOC	-	myron
 14	.	O	-	-
 
 # sent_id = batch-0002-0003
@@ -939,9 +939,9 @@
 13	at	O	-	-
 14	tilapia	O	-	-
 15	sa	O	-	-
-16	Lawa	B-LOC	-	jmri20
-17	ng	I-LOC	-	jmri20
-18	Taal	I-LOC	-	jmri20
+16	Lawa	O	-	-
+17	ng	O	-	-
+18	Taal	B-LOC	-	myron
 19	.	O	-	-
 
 # sent_id = batch-0002-0006
@@ -956,14 +956,14 @@
 8	-ng	O	-	-
 9	ilog	O	-	-
 10	sa	O	-	-
-11	Pilipinas	B-LOC	-	jmri20
+11	Pilipinas	B-LOC	-	myron
 12	?	O	-	-
 
 # sent_id = batch-0002-0007
 # text = Ang Cagayan River ang pinakamahaba at pinakamalaki -ng ilog sa Pilipinas.
 1	Ang	O	-	-
-2	Cagayan	B-LOC	-	jmri20
-3	River	I-LOC	-	jmri20
+2	Cagayan	B-LOC	-	myron
+3	River	B-LOC	-	myron
 4	ang	O	-	-
 5	pinakamahaba	O	-	-
 6	at	O	-	-
@@ -971,7 +971,7 @@
 8	-ng	O	-	-
 9	ilog	O	-	-
 10	sa	O	-	-
-11	Pilipinas	B-LOC	-	jmri20
+11	Pilipinas	B-LOC	-	myron
 12	.	O	-	-
 
 # sent_id = batch-0002-0008
@@ -988,15 +988,15 @@
 # text = Ito ang Nueva Vizcaya, Quirino, Isabela, at Cagayan.
 1	Ito	O	-	-
 2	ang	O	-	-
-3	Nueva	B-LOC	-	jmri20
-4	Vizcaya	I-LOC	-	jmri20
+3	Nueva	B-LOC	-	myron
+4	Vizcaya	B-LOC	-	myron
 5	,	O	-	-
-6	Quirino	B-LOC	-	jmri20
+6	Quirino	B-LOC	-	myron
 7	,	O	-	-
-8	Isabela	B-LOC	-	jmri20
+8	Isabela	B-LOC	-	myron
 9	,	O	-	-
 10	at	O	-	-
-11	Cagayan	B-LOC	-	jmri20
+11	Cagayan	B-LOC	-	myron
 12	.	O	-	-
 
 # sent_id = batch-0002-0010
@@ -1011,7 +1011,7 @@
 8	sa	O	-	-
 9	Hilaga	O	-	-
 10	-ng	O	-	-
-11	Luzon	B-LOC	-	jmri20
+11	Luzon	B-LOC	-	myron
 12	.	O	-	-
 
 # sent_id = batch-0002-0011
@@ -1019,8 +1019,8 @@
 1	Dinaraanan	O	-	-
 2	rin	O	-	-
 3	ng	O	-	-
-4	Cagayan	B-LOC	-	jmri20
-5	River	I-LOC	-	jmri20
+4	Cagayan	B-LOC	-	myron
+5	River	B-LOC	-	myron
 6	ang	O	-	-
 7	ilan	O	-	-
 8	-ng	O	-	-
@@ -1028,7 +1028,7 @@
 10	-ng	O	-	-
 11	kakahuyan	O	-	-
 12	sa	O	-	-
-13	Pilipinas	B-LOC	-	jmri20
+13	Pilipinas	B-LOC	-	myron
 14	.	O	-	-
 
 # sent_id = batch-0002-0012
@@ -1084,25 +1084,25 @@
 3	-ng	O	-	-
 4	makita	O	-	-
 5	ang	O	-	-
-6	Maria	B-LOC	-	jmri20
-7	Cristina	I-LOC	-	jmri20
-8	Falls	I-LOC	-	jmri20
+6	Maria	B-LOC	-	myron
+7	Cristina	B-LOC	-	myron
+8	Falls	B-LOC	-	myron
 9	sa	O	-	-
 10	lungsod	O	-	-
 11	ng	O	-	-
-12	Iligan	B-LOC	-	jmri20
+12	Iligan	B-LOC	-	myron
 13	sa	O	-	-
-14	Lanao	B-LOC	-	jmri20
-15	del	I-LOC	-	jmri20
-16	Norte	I-LOC	-	jmri20
+14	Lanao	B-LOC	-	myron
+15	del	B-LOC	-	myron
+16	Norte	B-LOC	-	myron
 17	.	O	-	-
 
 # sent_id = batch-0002-0016
 # text = Ang Maria Cristina Falls ay kilala rin bilang kambal na talon.
 1	Ang	O	-	-
-2	Maria	B-LOC	-	jmri20
-3	Cristina	I-LOC	-	jmri20
-4	Falls	I-LOC	-	jmri20
+2	Maria	B-LOC	-	myron
+3	Cristina	B-LOC	-	myron
+4	Falls	B-LOC	-	myron
 5	ay	O	-	-
 6	kilala	O	-	-
 7	rin	O	-	-
@@ -1139,11 +1139,11 @@
 # text = Napakahalaga ng Maria Cristina Falls sa Mindanao.
 1	Napakahalaga	O	-	-
 2	ng	O	-	-
-3	Maria	B-LOC	-	jmri20
-4	Cristina	I-LOC	-	jmri20
-5	Falls	I-LOC	-	jmri20
+3	Maria	B-LOC	-	myron
+4	Cristina	B-LOC	-	myron
+5	Falls	B-LOC	-	myron
 6	sa	O	-	-
-7	Mindanao	B-LOC	-	jmri20
+7	Mindanao	B-LOC	-	myron
 8	.	O	-	-
 
 # sent_id = batch-0002-0019
@@ -1250,11 +1250,11 @@
 5	bukal	O	-	-
 6	ay	O	-	-
 7	ang	O	-	-
-8	Tiwi	B-LOC	-	jmri20
-9	Hot	I-LOC	-	jmri20
-10	Springs	I-LOC	-	jmri20
+8	Tiwi	B-LOC	-	myron
+9	Hot	B-LOC	-	myron
+10	Springs	B-LOC	-	myron
 11	sa	O	-	-
-12	Bikol	B-LOC	-	jmri20
+12	Bikol	B-LOC	-	myron
 13	.	O	-	-
 
 # sent_id = batch-0002-0027
@@ -1263,8 +1263,8 @@
 2	ito	O	-	-
 3	malapit	O	-	-
 4	sa	O	-	-
-5	Bulkang	B-LOC	-	jmri20
-6	Mayon	I-LOC	-	jmri20
+5	Bulkang	B-LOC	-	myron
+6	Mayon	B-LOC	-	myron
 7	.	O	-	-
 
 # sent_id = batch-0002-0028
@@ -1273,9 +1273,9 @@
 2	ang	O	-	-
 3	pumupunta	O	-	-
 4	sa	O	-	-
-5	Tiwi	B-LOC	-	jmri20
-6	Hot	I-LOC	-	jmri20
-7	Springs	I-LOC	-	jmri20
+5	Tiwi	B-LOC	-	myron
+6	Hot	B-LOC	-	myron
+7	Springs	B-LOC	-	myron
 8	dahil	O	-	-
 9	nakagagaling	O	-	-
 10	daw	O	-	-
@@ -1354,7 +1354,7 @@
 6	-	O	-	-
 7	tubig	O	-	-
 8	sa	O	-	-
-9	Pilipinas	B-LOC	-	jmri20
+9	Pilipinas	B-LOC	-	myron
 10	!	O	-	-
 
 # sent_id = batch-0003-0003
